@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ArtSaver privacy policy: media detection, local processing, optional site cookies, the local Helper, downloads, and donations.">
+  <title>ArtSaver Privacy Policy</title>
+  <style>
+    :root{color-scheme:light;--ink:#342e39;--muted:#706675;--pink:#f4e4ed;--paper:#fffafd;--link:#87536f}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:780px;margin:0 auto;padding:40px 24px 64px}h1{font-size:32px;line-height:1.2}h2{font-size:20px;margin:30px 0 8px}p,li{color:var(--muted)}a{color:var(--link)}.intro{padding:16px 20px;background:var(--pink);border-radius:18px}.updated{font-size:14px}
+  </style>
+</head>
+<body>
+<main>
+  <h1>ArtSaver Privacy Policy</h1>
+  <p class="updated"><strong>Last updated: October 21, 2026</strong></p>
+  <p class="intro">ArtSaver helps you find and download media made available by a webpage. Media detection and download preparation are processed on your device. ArtSaver does not operate an analytics server and does not send your browsing or media-detection data to the developer.</p>
+
+  <h2>Information ArtSaver processes</h2>
+  <p>While the extension is enabled, it observes successful HTTP and HTTPS response headers to identify responses that appear to contain audio or video. This can happen before you open the ArtSaver popup because a page may load or preload media in advance. For detected media, ArtSaver temporarily stores the media URL (which may contain query parameters supplied by the source), media type, available title and technical metadata, and the browser tab and time associated with the response. It keeps up to 24 media candidates per tab. It does not store full page text, request bodies, or a general browsing-history log for analytics.</p>
+  <p>When you open ArtSaver, it may inspect the current page and accessible frames to identify media players, media links, titles, and duration. Analysis results, download progress, and temporary file references are stored in Chrome session storage. Your selected interface language is stored locally in Chrome storage.</p>
+
+  <h2>How this information is used</h2>
+  <p>Media URLs and related details are used only to identify supported media, show its available format, quality, duration, and estimated size, and carry out a download you request. ArtSaver does not sell this information, use it for advertising, or send it to the developer for analytics. If you copy an error message, it is placed on your clipboard; it is not sent to the developer unless you choose to share it yourself.</p>
+
+  <h2>Optional sign-in cookies</h2>
+  <p>ArtSaver does not read sign-in cookies for the Helper flow until you choose the site-cookie sharing action and approve Chrome’s cookies permission. It selects up to 24 likely sign-in cookies associated with the current site and excludes known analytics cookies and cookies for unrelated domains. The selected cookies are passed through Chrome Native Messaging to ArtSaver Helper running on your own computer, then used only for the download you requested from the relevant source site. They are not sent to the ArtSaver developer. The source site receives the authorized request and may receive the cookies needed to provide media available to your account.</p>
+  <p>Temporary cookie data is held in Chrome session storage and in the Helper’s process memory while needed for the requested operation. It is cleared when the operation finishes or fails, when the page or tab changes or closes, or when the temporary session expires (up to 10 minutes). Regular browser requests may also include cookies according to the source site and Chrome’s own cookie rules.</p>
+
+  <h2>ArtSaver Helper and downloads</h2>
+  <p>ArtSaver Helper is optional, separately installed software that runs locally. It is required for supported streaming downloads and extracting audio from video. It receives only the requested media job and, after your consent, the selected site cookies described above. It downloads media directly from the source site and does not send your page data or cookies to the developer. During installation, the Helper may download required software dependencies from the network sources included in its installer.</p>
+  <p>Downloaded media files are saved to your computer’s Downloads folder. The files remain on your device until you move or delete them. ArtSaver does not upload your downloaded files.</p>
+
+  <h2>Donations and contact details</h2>
+  <p>A link to the ArtSaver Monobank jar is always available in the extension footer. Donations are voluntary, there is no minimum amount, and donations are non-refundable. If you choose to donate and request the separate Helper installer, you may include a Telegram username or email address in the payment comment. Ali-X, the ArtSaver developer and Helper provider, receives that contact information through Monobank and uses it to send the installer manually and respond to the request. Monobank processes the donation and payment details under its own terms and privacy practices. ArtSaver does not collect payment-card or banking-login details in the extension. Contact details may remain in the payment provider’s records and in the communications needed to fulfil or support the request; they are not used for advertising.</p>
+
+  <h2>Storage and retention</h2>
+  <p>Media candidates and download-operation data are stored in Chrome session storage and are removed as the page changes, a tab closes, or the browser session ends. The chosen language remains in Chrome local storage until you change it or remove the extension. Temporary sign-in cookie data is removed as described above. Downloaded files are controlled by you in your local Downloads folder.</p>
+
+  <h2>Sharing and service providers</h2>
+  <p>For a download, the relevant source website receives network requests necessary to access the media. If you use the donation link, Monobank receives your payment interaction and any contact details included in the payment comment. Chrome also processes data according to Google’s own policies. ArtSaver does not share media-detection data with advertising networks, data brokers, or the developer.</p>
+
+  <h2>Your choices and privacy requests</h2>
+  <p>You can decline the optional cookies permission, revoke it later in Chrome’s extension settings, stop using the Helper, or uninstall ArtSaver. Without the Helper, some streaming downloads and audio extraction are unavailable; compatible media directly exposed by a page may still be downloadable. For privacy questions or a request concerning contact details used to deliver the Helper, use the support contact shown on the ArtSaver Chrome Web Store listing.</p>
+
+  <h2>Chrome Web Store Limited Use</h2>
+  <p>ArtSaver’s use and transfer of information received from Chrome APIs is limited to providing the extension’s disclosed media-detection and download features. Data is not used or transferred for personalized advertising, sold to third parties, or reviewed by the developer, except when the user independently sends information to request support or delivery. Any transfer to the local Helper or the source website is limited to the download or media-access action requested by the user. This use is intended to comply with the Chrome Web Store User Data Policy, including its Limited Use requirements.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>This policy may be updated when ArtSaver’s features or data practices change. The current version and its effective date will be published at the privacy-policy link in the Chrome Web Store listing.</p>
+</main>
+</body>
+</html>
